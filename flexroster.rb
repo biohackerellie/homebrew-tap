@@ -5,12 +5,12 @@
 class Flexroster < Formula
   desc "A cli tool to manage your FlexRoster instance"
   homepage "https://github.com/biohackerellie/FlexRoster"
-  version "1.12.1"
+  version "1.12.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.1/FlexRoster_1.12.1_darwin_amd64.tar.gz"
-      sha256 "ad2ce4789b2bc79a2ecfbc9f4522fd55593d85918d23b77962b318ae2122e632"
+      url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.2/FlexRoster_1.12.2_darwin_amd64.tar.gz"
+      sha256 "8bce1a104ee361725b0c83d33c658c008c0f7698f51ca60043bf30b3689968c9"
 
       def install
         bin.install "flexroster"
@@ -18,8 +18,8 @@ class Flexroster < Formula
       end
     end
     on_arm do
-      url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.1/FlexRoster_1.12.1_darwin_arm64.tar.gz"
-      sha256 "a63202f88414943c3a2584e464b51867cd3700a9ff389618b4ea6c0cf3ff74da"
+      url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.2/FlexRoster_1.12.2_darwin_arm64.tar.gz"
+      sha256 "a5e176297d16a6bd02cd77152fca7a6925a4e4e50ff6a2f042156b03168b10ed"
 
       def install
         bin.install "flexroster"
@@ -31,8 +31,8 @@ class Flexroster < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.1/FlexRoster_1.12.1_linux_amd64.tar.gz"
-        sha256 "cf194e685e46676e70f73d1d169c0fdcd326b888127a6c944b80f55c4268c9bb"
+        url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.2/FlexRoster_1.12.2_linux_amd64.tar.gz"
+        sha256 "98eeae9fc002a2ffa9dac0a70f714c1761955ff632be48768890e417a239893d"
 
         def install
           bin.install "flexroster"
@@ -42,8 +42,8 @@ class Flexroster < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.1/FlexRoster_1.12.1_linux_arm64.tar.gz"
-        sha256 "1868d8239392683d22c34140238954cbff6b50c66d50bcdec4c0ae1f961e840d"
+        url "https://github.com/biohackerellie/FlexRoster/releases/download/v1.12.2/FlexRoster_1.12.2_linux_arm64.tar.gz"
+        sha256 "8b58e316c50845a35b82b0e7c700d454e4c7876638509ca34f7084ca5b4ad4ab"
 
         def install
           bin.install "flexroster"
